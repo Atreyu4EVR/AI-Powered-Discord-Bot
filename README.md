@@ -1,6 +1,6 @@
 # Discord AI Bot
 
-This Discord bot, named Atreyu, is a versatile AI-powered assistant designed for Ron's personal Discord server. It uses OpenAI's GPT models to provide helpful and friendly responses to user queries.
+This Discord bot, named Atreyu, is a versatile AI-powered assistant designed for a Discord server. It uses OpenAI's GPT models to provide helpful and friendly responses to user queries.
 
 ## Features
 
@@ -22,29 +22,29 @@ This Discord bot, named Atreyu, is a versatile AI-powered assistant designed for
 1. Clone the repository:
 
    ```bash
-   git clone cd Discord_Bot
+   git clone https://github.com/Atreyu4EVR/AI-Powered-Discord-Bot.git
 
    ```
 
 2. Install required packages:
 
    ```bash
-   pip install discord.py python-dotenv openai langchain
+   pip install -r requirements.txt
 
    ```
 
 3. Set up environment variables:
    Create a `.env` file in the project root and add the following:
-   OPENAI_API_KEY=your_openai_api_key
-   DISCORD_TOKEN=your_discord_bot_token
-   LANGCHAIN_API_KEY=your_langchain_api_key
+   - OPENAI_API_KEY=your_openai_api_key
+   - DISCORD_TOKEN=your_discord_bot_token
+   - LANGCHAIN_API_KEY=your_langchain_api_key
 
 ## Usage
 
 1. Run the bot:
 
    ```bash
-    python discordAIBot.py
+    python bot.py
    ```
 
 2. Interact with the bot in your Discord server:
@@ -72,7 +72,7 @@ The bot tracks token usage and estimates the cost of each interaction, printing 
 
 ## Customization
 
-You can customize the bot's behavior by modifying the `discordAIBot.py` file:
+You can customize the bot's behavior by modifying the `bot.py` file:
 
 - Adjust the `SystemMessage` content to change the bot's personality
 - Modify existing commands or add new ones in the `DiscordBot` class
