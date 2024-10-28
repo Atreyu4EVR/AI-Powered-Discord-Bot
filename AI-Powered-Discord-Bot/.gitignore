@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Discord bot token and other sensitive information
+config.json
+*.pem
+*.key
+
+# OpenAI API key
+openai_api_key.txt
+
+# LangChain-specific
+.langchain/
+
+# Miscellaneous
+*.sqlite3
